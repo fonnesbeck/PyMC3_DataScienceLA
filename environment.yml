@@ -11,6 +11,5 @@ dependencies:
 - seaborn 
 - patsy 
 - pandas
-- pip:
-    - git+https://github.com/Theano/Theano.git#egg=theano
-    - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+- pymc3
+- theano

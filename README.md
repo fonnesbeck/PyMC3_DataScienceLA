@@ -60,10 +60,10 @@ cd PyMC3_DataScienceLA
 conda env create -f environment.yml
 ```
 
-This will create a *virtual environment* called `pymc` that includes the dependencies for PyMC3 that is completely separate from any other Python installations you may have on your machine. To activate this environment to run the course materials, you can run the following command from the terminal:
+This will create a *virtual environment* called `pymc_tutorial` that includes the dependencies for PyMC3 that is completely separate from any other Python installations you may have on your machine. To activate this environment to run the course materials, you can run the following command from the terminal:
 
 ```bash
-source activate pymc
+source activate pymc_tutorial
 ```
 
 **If you would rather not install the software yourself, you can use the MyBinder.org link at the top of the page to run the course materials on a remote server**

@@ -1,4 +1,4 @@
-name: pymc
+name: pymc_tutorial
 
 channels:
  - conda-forge

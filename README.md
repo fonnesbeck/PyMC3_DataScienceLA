@@ -1,10 +1,11 @@
 # Tutorial: Probabilistic Programming using PyMC3 
 
-**DataScience LA, 24 January, 2017**
+Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_DataScienceLA), modifications by CEAi.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/PyMC3_DataScienceLA)
+The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.
 
-Probabilistic Programming allows for automatic Bayesian inference on user-defined probabilistic models. Recent advances in Markov chain Monte Carlo (MCMC) sampling allow inference on increasingly complex models. This class of MCMC, known as Hamiltonian Monte Carlo, requires gradient information which is often not readily available. [PyMC3](https://github.com/pymc-devs/pymc3 "GitHub - pymc-devs/pymc3: Probabilistic Programming in Python. Uses Theano as a backend, supports NUTS and ADVI.") is a new open source Probabilistic Programming framework written in Python that uses [Theano](http://deeplearning.net/software/theano/) to compute gradients via automatic differentiation as well as compile probabilistic programs on-the-fly to C for better performance. Contrary to other Probabilistic Programming languages, PyMC3 allows model specification directly in Python code. This workshop will introduce new users to the PyMC3 package, and demonstrate how to implement and fit models.
+The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  Model checking remains last as in original tutorial because it focuses on convergence analysis and goodness of fit, so an understanding of sampling and variational inference is necessary.
+
 
 ## Syllabus
 
@@ -13,6 +14,17 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * Variable types
 * Probability models
 * Simple case studies
+
+### Model Building with PyMC3
+
+* Specifying priors and likelihoods
+* Deterministic variables
+* Factor potentials
+* Custom variables
+* Step methods
+* Generalized linear models
+* Missing Data
+
 
 ### Markov Chain Monte Carlo
 
@@ -24,16 +36,6 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * MAP
 * Variational inference
 * ADVI
-
-### Model Building with PyMC3
-
-* Specifying priors and likelihoods
-* Deterministic variables
-* Factor potentials
-* Custom variables
-* Step methods
-* Generalized linear models
-* Missing Data
 
 ### Model Checking and Output Processing
 

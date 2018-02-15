@@ -4,10 +4,24 @@ Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_D
 
 The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.
 
-The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  Model checking remains last as in original tutorial because it focuses on convergence analysis and goodness of fit, so an understanding of sampling and variational inference is necessary.
+## TODO list
 
+- [ ] Measure initial skill level and knowledge state of group
+- [ ] Work out speed and method of proceeding at group level
+- [ ] Add more exercises and/or demonstrations where necessary
+- [ ] Come up with a time plan targeting May for completion
+
+
+## Initial group measurement
+
+We polled the ML group in CEAi as to the actual state of knowledge (self-reported) of various topics stated below and the following stacked graph displays the result.
+
+![Initial group level of knowledge](initial_group_level.png)
 
 ## Syllabus
+
+The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  Model checking remains last as in original tutorial because it focuses on convergence analysis and goodness of fit, so an understanding of sampling and variational inference is necessary.
+
 
 ### Introduction to PyMC3
 

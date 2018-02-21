@@ -69,7 +69,7 @@ Running PyMC3 requires a working Python interpreter, either version 2.7 (or more
 
 ```
 git clone https://github.com/oapio/PrecisionWorkshop1_Prep
-``
+```
 
 Then move into the directory created by the clone, and install the required packages using `conda`:
 

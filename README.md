@@ -4,9 +4,11 @@ Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_D
 
 The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.
 
+Material from the PyMC3 introductory page is also added from the [getting started page](https://github.com/pymc-devs/pymc3/blob/master/docs/source/notebooks/getting_started.ipynb).
+
 ## TODO list
 
-- [ ] Measure initial skill level and knowledge state of group
+- [x] Measure initial skill level and knowledge state of group
 - [ ] Work out speed and method of proceeding at group level
 - [ ] Add more exercises and/or demonstrations where necessary
 - [ ] Come up with a time plan targeting May for completion
@@ -66,8 +68,8 @@ Running PyMC3 requires a working Python interpreter, either version 2.7 (or more
 `PyMC3` can be installed using `conda`, a package management tool that is bundled with Anaconda. PyMC3 also depends on several third-party Python packages which will be automatically installed when installing via `conda`. The four required dependencies are: `Theano`, `NumPy`, `SciPy`, `Matplotlib`, and `joblib`. To take full advantage of PyMC3, the optional dependencies `seaborn`, `pandas` and `Patsy` should also be installed. You can install PyMC3 and its dependencies by cloning this repository:
 
 ```
-git clone https://github.com/fonnesbeck/PyMC3_DataScienceLA.git
-```
+git clone https://github.com/oapio/PrecisionWorkshop1_Prep
+``
 
 Then move into the directory created by the clone, and install the required packages using `conda`:
 

@@ -29,7 +29,11 @@ The syllabus is modified with the following logic: first come segments which foc
 
 * Variable types
 * Probability models
+* Well known distributions refresher
 * Simple case studies
+* Comparing analytical solutions to numeric approximations
+  * Beta-Binomial model
+  * Normal-Normal model with known precision
 
 ### Model Building with PyMC3
 
@@ -37,10 +41,7 @@ The syllabus is modified with the following logic: first come segments which foc
 * Deterministic variables
 * Factor potentials
 * Custom variables
-* Step methods
-* Generalized linear models
-* Missing Data
-
+* Case study: a small TrueSkill model
 
 ### Markov Chain Monte Carlo
 

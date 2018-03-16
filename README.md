@@ -1,18 +1,47 @@
 # Tutorial: Probabilistic Programming using PyMC3 
 
-**DataScience LA, 24 January, 2017**
+Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_DataScienceLA), modifications by CEAi.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/PyMC3_DataScienceLA)
+The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.
 
-Probabilistic Programming allows for automatic Bayesian inference on user-defined probabilistic models. Recent advances in Markov chain Monte Carlo (MCMC) sampling allow inference on increasingly complex models. This class of MCMC, known as Hamiltonian Monte Carlo, requires gradient information which is often not readily available. [PyMC3](https://github.com/pymc-devs/pymc3 "GitHub - pymc-devs/pymc3: Probabilistic Programming in Python. Uses Theano as a backend, supports NUTS and ADVI.") is a new open source Probabilistic Programming framework written in Python that uses [Theano](http://deeplearning.net/software/theano/) to compute gradients via automatic differentiation as well as compile probabilistic programs on-the-fly to C for better performance. Contrary to other Probabilistic Programming languages, PyMC3 allows model specification directly in Python code. This workshop will introduce new users to the PyMC3 package, and demonstrate how to implement and fit models.
+Material from the PyMC3 introductory page is also added from the [getting started page](https://github.com/pymc-devs/pymc3/blob/master/docs/source/notebooks/getting_started.ipynb).
+
+## TODO list
+
+- [x] Measure initial skill level and knowledge state of group
+- [ ] Work out speed and method of proceeding at group level
+- [ ] Add more exercises and/or demonstrations where necessary
+- [ ] Come up with a time plan targeting May for completion
+
+
+## Initial group measurement
+
+We polled the ML group in CEAi as to the actual state of knowledge (self-reported) of various topics stated below and the following stacked graph displays the result.
+
+![Initial group level of knowledge](initial_group_level.png)
 
 ## Syllabus
+
+The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  Model checking remains last as in original tutorial because it focuses on convergence analysis and goodness of fit, so an understanding of sampling and variational inference is necessary.
+
 
 ### Introduction to PyMC3
 
 * Variable types
 * Probability models
+* Well known distributions refresher
 * Simple case studies
+* Comparing analytical solutions to numeric approximations
+  * Beta-Binomial model
+  * Normal-Normal model with known precision
+
+### Model Building with PyMC3
+
+* Specifying priors and likelihoods
+* Deterministic variables
+* Factor potentials
+* Custom variables
+* Case study: a small TrueSkill model
 
 ### Markov Chain Monte Carlo
 
@@ -24,16 +53,6 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * MAP
 * Variational inference
 * ADVI
-
-### Model Building with PyMC3
-
-* Specifying priors and likelihoods
-* Deterministic variables
-* Factor potentials
-* Custom variables
-* Step methods
-* Generalized linear models
-* Missing Data
 
 ### Model Checking and Output Processing
 
@@ -50,7 +69,7 @@ Running PyMC3 requires a working Python interpreter, either version 2.7 (or more
 `PyMC3` can be installed using `conda`, a package management tool that is bundled with Anaconda. PyMC3 also depends on several third-party Python packages which will be automatically installed when installing via `conda`. The four required dependencies are: `Theano`, `NumPy`, `SciPy`, `Matplotlib`, and `joblib`. To take full advantage of PyMC3, the optional dependencies `seaborn`, `pandas` and `Patsy` should also be installed. You can install PyMC3 and its dependencies by cloning this repository:
 
 ```
-git clone https://github.com/fonnesbeck/PyMC3_DataScienceLA.git
+git clone https://github.com/oapio/PrecisionWorkshop1_Prep
 ```
 
 Then move into the directory created by the clone, and install the required packages using `conda`:

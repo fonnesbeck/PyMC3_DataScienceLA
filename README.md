@@ -28,43 +28,43 @@ The syllabus is modified with the following logic: first come segments which foc
 
 ### Introduction to Bayesian modelling and PyMC3
 
-[x] Variable types
-[x] Probability models
-[x] Well known distributions refresher
-[x] Simple case studies
-[x] Comparing analytical solutions to numeric approximations
-  [x] Beta-Binomial model
-  [x] Normal-Normal model with known precision
+- [x] Variable types
+- [x] Probability models
+- [x] Well known distributions refresher
+- [x] Simple case studies
+- [x] Comparing analytical solutions to numeric approximations
+  - [x] Beta-Binomial model
+  - [x] Normal-Normal model with known precision
 
 ### Model Building with PyMC3
 
-[x] Specifying priors and likelihoods
-[x] Deterministic variables
-[x] Factor potentials
-[x] Custom variables
-[x] Case study: fitting a 9x9 pixel faces
-[x] Case study: tagging two-token names
+- [x] Specifying priors and likelihoods
+- [x] Deterministic variables
+- [x] Factor potentials
+- [x] Custom variables
+- [x] Case study: fitting a 9x9 pixel faces
+- [x] Case study: tagging two-token names
 
 ### Markov Chain Monte Carlo
 
-[x] Monte Carlo: importance sampling and rejection sampling
-[ ] Markov Chain Monte Carlo
-[ ] Metropolis and Metropolis-Hastings
-  [ ] Examples: 2D Gaussian, linear regression with Laplace prior
-[ ] Gibbs sampling
-  [ ] Examples: 2D Gaussian, Dirichlet Process-based clustering (a taste of nonparametric methods)
+- [x] Monte Carlo: importance sampling and rejection sampling
+- [ ] Markov Chain Monte Carlo
+- [ ] Metropolis and Metropolis-Hastings
+  - [ ] Examples: 2D Gaussian, linear regression with Laplace prior
+- [ ] Gibbs sampling
+  - [ ] Examples: 2D Gaussian, Dirichlet Process-based clustering (a taste of nonparametric methods)
 
 ### Approximation Methods
 
-[ ] Variational inference
-[ ] The ELBO
-[ ] Mean field approximation
+- [ ] Variational inference
+- [ ] The ELBO
+- [ ] Mean field approximation
 
 ### Model Checking and Output Processing
 
-[ ] Convergence diagnostics
-[ ] Goodness of fit
-[ ] Plotting and summarization
+- [ ] Convergence diagnostics
+- [ ] Goodness of fit
+- [ ] Plotting and summarization
 
 ## Software Installation
 

@@ -2,65 +2,69 @@
 
 Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_DataScienceLA), modifications by CEAi.
 
-The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.
+The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.  We have extended the work with extra topics and exercises.
 
 Material from the PyMC3 introductory page is also added from the [getting started page](https://github.com/pymc-devs/pymc3/blob/master/docs/source/notebooks/getting_started.ipynb).
 
 ## TODO list
 
 - [x] Measure initial skill level and knowledge state of group
-- [ ] Work out speed and method of proceeding at group level
-- [ ] Add more exercises and/or demonstrations where necessary
-- [ ] Come up with a time plan targeting May for completion
+- [x] Work out speed and method of proceeding at group level
+- [x] Add more exercises and/or demonstrations where necessary
+- [ ] Come up with a time plan targeting May for completion (deadline Apr 15th)
 
 
-## Initial group measurement
+## Working through the material
 
+### Initial measurement
 We polled the ML group in CEAi as to the actual state of knowledge (self-reported) of various topics stated below and the following stacked graph displays the result.
 
 ![Initial group level of knowledge](initial_group_level.png)
 
 ## Syllabus
 
-The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  Model checking remains last as in original tutorial because it focuses on convergence analysis and goodness of fit, so an understanding of sampling and variational inference is necessary.
+The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  We devote a lot of attention to understanding inference methods with diving into sampling and introducing the basics of variational inference.
 
 
-### Introduction to PyMC3
+### Introduction to Bayesian modelling and PyMC3
 
-* Variable types
-* Probability models
-* Well known distributions refresher
-* Simple case studies
-* Comparing analytical solutions to numeric approximations
-  * Beta-Binomial model
-  * Normal-Normal model with known precision
+[x] Variable types
+[x] Probability models
+[x] Well known distributions refresher
+[x] Simple case studies
+[x] Comparing analytical solutions to numeric approximations
+  [x] Beta-Binomial model
+  [x] Normal-Normal model with known precision
 
 ### Model Building with PyMC3
 
-* Specifying priors and likelihoods
-* Deterministic variables
-* Factor potentials
-* Custom variables
-* Case study: a small TrueSkill model
+[x] Specifying priors and likelihoods
+[x] Deterministic variables
+[x] Factor potentials
+[x] Custom variables
+[x] Case study: fitting a 9x9 pixel faces
+[x] Case study: tagging two-token names
 
 ### Markov Chain Monte Carlo
 
-* Metropolis sampling
-* Gradient-based sampling methods
+[x] Monte Carlo: importance sampling and rejection sampling
+[ ] Markov Chain Monte Carlo
+[ ] Metropolis and Metropolis-Hastings
+  [ ] Examples: 2D Gaussian, linear regression with Laplace prior
+[ ] Gibbs sampling
+  [ ] Examples: 2D Gaussian, Dirichlet Process-based clustering (a taste of nonparametric methods)
 
 ### Approximation Methods
 
-* MAP
-* Variational inference
-* ADVI
+[ ] Variational inference
+[ ] The ELBO
+[ ] Mean field approximation
 
 ### Model Checking and Output Processing
 
-* Storage backends
-* Convergence diagnostics
-* Goodness of fit
-* Plotting and summarization
-
+[ ] Convergence diagnostics
+[ ] Goodness of fit
+[ ] Plotting and summarization
 
 ## Software Installation
 

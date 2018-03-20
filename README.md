@@ -4,12 +4,12 @@ This repository was forked from the excellent tutorial by Chris Fonnesbeck: [PyM
 
 CEAi has modified some material and added new material - especially exercises with the aim of using this series of notebooks to prepare for our first Precision workshop - on Bayesian modelling.
 
-Why this material? This is an experiment. At CEAi we want to push our ML skills to new levels and this is an experiment in how to implement this in a tough environment of a startup studio. We believe that we can get much more out of a focused workshop if we invest significant effort into preparation.  We are working through this material in the course of approximately 3 months to prepare for a workshop that will take approximately 3 days. We expect at least the following effects: everyone will enter the workshop with a given minimal level of knowledge, the three month period will allow lots of time to get into the topics and think through more difficult issues, we will have basic coding experience with PyMC3 as a vehicle for learning about Bayesian modelling and since these materials are being created just before use, we can adjust the difficulty level online.
+## Why this material?
+At CEAi we are always looking to push our ML skills to the next level and this is an experiment in how to implement this in the fast paced environment of a startup studio.  Instead of just doing a workshop on Bayesian modelling, we believe that we can get much more out of a workshop if we invest significant effort into preparation.  We are working through this material in the course of approximately 3 months to prepare for a workshop that will take approximately 3 days. We expect at least the following effects: everyone will enter the workshop with a given minimal level of knowledge, the three month period will allow lots of time to get into the topics and think through more difficult issues, we will have basic coding experience with PyMC3 as a vehicle for learning about Bayesian modelling and since these materials are being created just before use, we can adjust the difficulty level online.
 
 We welcome all feedback to the notebooks and please send us pull requests with ideas for improvement.
 
 We also note that we have found lots of inspiration elsewhere for arranging this material, including the PyMC3 documentation, examples, various talks and papers.  Relevant sources should be appended to each notebook.
-
 
 ## TODO list
 

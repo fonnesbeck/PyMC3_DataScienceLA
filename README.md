@@ -1,18 +1,21 @@
-# Tutorial: Probabilistic Programming using PyMC3 
+# Introduction to Probabilistic programming (with PyMC3)
 
-Original repository: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_DataScienceLA), modifications by CEAi.
+This repository was forked from the excellent tutorial by Chris Fonnesbeck: [PyMC3 DataScienceLA](https://github.com/fonnesbeck/PyMC3_DataScienceLA).
 
-The original material is taken from Chris Fonnesbeck's excellent repository for the DataScience LA tutorial.  Here this material is modified to prepare the ML team @ CEAi for the first Precision Workshop on Bayesian modelling.  We have extended the work with extra topics and exercises.
+CEAi has modified some material and added new material - especially exercises with the aim of using this series of notebooks to prepare for our first Precision workshop - on Bayesian modelling.
 
-Material from the PyMC3 introductory page is also added from the [getting started page](https://github.com/pymc-devs/pymc3/blob/master/docs/source/notebooks/getting_started.ipynb).
+Why this material? This is an experiment. At CEAi we want to push our ML skills to new levels and this is an experiment in how to implement this in a tough environment of a startup studio. We believe that we can get much more out of a focused workshop if we invest significant effort into preparation.  We are working through this material in the course of approximately 3 months to prepare for a workshop that will take approximately 3 days. We expect at least the following effects: everyone will enter the workshop with a given minimal level of knowledge, the three month period will allow lots of time to get into the topics and think through more difficult issues, we will have basic coding experience with PyMC3 as a vehicle for learning about Bayesian modelling and since these materials are being created just before use, we can adjust the difficulty level online.
+
+We welcome all feedback to the notebooks and please send us pull requests with ideas for improvement.
+
+We also note that we have found lots of inspiration elsewhere for arranging this material, including the PyMC3 documentation, examples, various talks and papers.  Relevant sources should be appended to each notebook.
+
 
 ## TODO list
 
 - [x] Measure initial skill level and knowledge state of group
 - [x] Work out speed and method of proceeding at group level
-- [x] Add more exercises and/or demonstrations where necessary
 - [ ] Come up with a time plan targeting May for completion (deadline Apr 15th)
-
 
 ## Working through the material
 
@@ -21,9 +24,12 @@ We polled the ML group in CEAi as to the actual state of knowledge (self-reporte
 
 ![Initial group level of knowledge](initial_group_level.png)
 
-## Syllabus
+### Interim measurement 
+We aim for another measurement on 22.3.2018.
 
-The syllabus is modified with the following logic: first come segments which focus on basic usage patterns of PyMC3 and then on model building, using various more or less advanced tools such as custom factor potentials.  This first allows exploration of the expressive capability of Bayesian models and thus making clear the benefits thereof before diving into inference and finally model checking.  We devote a lot of attention to understanding inference methods with diving into sampling and introducing the basics of variational inference.
+
+## Syllabus
+We order the topics as follows: building models (using PyMC3 for inference), inference based on sampling, inference based on variational methods and finally model checking.  We aim for different levels of depth depending on the topic based on estimating what can be best handled in-house and what is best left for the workshop itself.
 
 
 ### Introduction to Bayesian modelling and PyMC3

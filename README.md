@@ -54,9 +54,10 @@ We order the topics as follows: building models (using PyMC3 for inference), inf
 ### Markov Chain Monte Carlo
 
 - [x] Monte Carlo: importance sampling and rejection sampling
-- [ ] Markov Chain Monte Carlo
-- [ ] Metropolis and Metropolis-Hastings
-  - [ ] Examples: 2D Gaussian, linear regression with Laplace prior
+- [x] Markov Chain Monte Carlo
+- [x] Metropolis and Metropolis-Hastings
+  - [x] Examples: 2D Gaussian, linear regression with Laplace prior
+- [x] Exercise: write your own sampler
 - [ ] Gibbs sampling
   - [ ] Examples: 2D Gaussian, Dirichlet Process-based clustering (a taste of nonparametric methods)
 
